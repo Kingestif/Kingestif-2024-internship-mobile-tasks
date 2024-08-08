@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:new_app/Features/todo/Domain/entities/Product.dart';
 import 'package:new_app/Features/todo/Domain/usecase/GetProductAll.dart';
-import '../helpers/test_helper.mocks.dart';
+import '../../helpers/test_helper.mocks.dart';
 
 // run this command ASAP whenever you create test for new Usecase
 // dart run build_runner build

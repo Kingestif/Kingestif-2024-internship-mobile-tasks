@@ -3,7 +3,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:new_app/Features/todo/Domain/entities/Product.dart';
 import 'package:new_app/Features/todo/Domain/usecase/InsertProduct.dart';
-import '../helpers/test_helper.mocks.dart';
+import '../../helpers/test_helper.mocks.dart';
 
 void main(){
   // 1 create instance for your usecase
