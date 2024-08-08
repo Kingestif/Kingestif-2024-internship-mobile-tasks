@@ -17,14 +17,14 @@ void main(){
   });
 
   const testProductDetail = ProductEntity(
-      id: '3',
+      id: '',
       name: 'vans',
       description: 'classic vans',
       price: '300',
       imageUrl: 'imageUrl'
   );
 
-  const testId = '1';
+  const testId = '';
   const testName = 'vans';
   const testDescription = 'classic vans';
   const testPrice = '300';
