@@ -60,25 +60,25 @@ void main() {
     });
   });
 
-  // group('addProduct', () {
-  //   const productModel = ProductModel(
-  //     id: '1',
-  //     name: 'Test Product',
-  //     description: 'Test Description',
-  //     price: 10,
-  //     imageUrl: 'https://res.cloudinary.com/g5-mobile-track/image/upload/v1718777132/images/zxjhzrflkvsjutgbmr0f.jpg',
-  //   );
+  group('addProduct', () {
+    const productModel = ProductModel(
+      id: '1',
+      name: 'Test Product',
+      description: 'Test Description',
+      price: 10,
+      imageUrl: 'https://res.cloudinary.com/g5-mobile-track/image/upload/v1718777132/images/zxjhzrflkvsjutgbmr0f.jpg',
+    );
 
-  //   test('should call SharedPreferences to cache the data', () async {
-  //     // Arrange    convert ProductModel to Json String
-  //     final jsonString = jsonEncode(productModel.toJson());
+    test('should call SharedPreferences to cache the data', () async {
+      // Arrange    convert ProductModel to Json String
+      final jsonString = jsonEncode(productModel.toJson());
 
-  //     // Act
-  //     await dataSource.addProduct(productModel);
+      // Act
+      await dataSource.addProduct(productModel);
 
-  //     // Assert
-  //     verify(mockSharedPreferences.setString('PRODUCT_${productModel.id}', jsonString));
-  //   });
-  // });
+      // Assert
+      verify(mockSharedPreferences.setString('PRODUCT_${productModel.id}', jsonString));
+    });
+  });
 
 }
