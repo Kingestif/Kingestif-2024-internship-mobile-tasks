@@ -17,7 +17,6 @@ Backend Integration: API-driven backend for data handling and real-time updates.
 CRUD Operations: Create, read, update, and delete functionality for seamless data manipulation.
 
 #Screenshots
-Add screenshots here to showcase the UI.
 
 ![Screenshot (22)](https://github.com/user-attachments/assets/b0fedff7-774e-45f6-b9e1-f0ea23457bfb)
 ![Screenshot (23)](https://github.com/user-attachments/assets/7e33906b-3b51-4c7d-9cb5-e05042c8845c)
